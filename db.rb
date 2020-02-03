@@ -19,7 +19,7 @@ row_index = 0
 while row_index < directors.length do 
   column_index = 0 
   directors[row_index][:movies].map do |movie|
-    puts movie[:title]
+    puts movie[0][:title]
   end
   row_index += 1 
   
