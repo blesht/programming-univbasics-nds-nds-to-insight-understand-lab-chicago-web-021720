@@ -18,9 +18,10 @@ directors = [{:name=>"Stephen Spielberg", :movies=>[{:title=>"Jaws", :studio=>"U
 row_index = 0 
 while row_index < directors.length do 
   column_index = 0 
-  while directors[row_index][column_index] < directors
+  while column_index < directors[row_index].length do 
   #directors[row_index][:movies].map do |movie|
-    puts movie[:title]
+    puts directors[row_index][column_index][:title]
+    column_index += 1 
   end
   row_index += 1 
   
