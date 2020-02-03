@@ -20,7 +20,7 @@ while row_index < directors.length do
   column_index = 0 
   while column_index < directors[row_index].length do 
   #directors[row_index][:movies].map do |movie|
-    puts "hey"
+    puts directors[row_index][:name]
     column_index += 1 
   end
   row_index += 1 
