@@ -21,6 +21,7 @@ while row_index < directors.length do
   directors[row_index][:movies].map do |movie|
     puts movie[:title]
   end
+  row_index += 1 
   
 end
     
